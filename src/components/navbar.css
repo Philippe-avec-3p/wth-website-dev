@@ -1,0 +1,47 @@
+.navbar {
+    background: linear-gradient(135deg, #2499d4ff, #272a33ff);
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    font-size: 28px;
+    margin-right: 8px;
+    color: #ff9800;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ff9800;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+    background-color: #ff9800;
+    color: white;
+}
