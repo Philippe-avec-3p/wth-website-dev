@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import './navbar.css';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <motion.nav
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="navbar navbar-expand-lg navbar-light fixed-top"
+        >
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">Navbar</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,7 +29,7 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-        </nav>
+        </motion.nav>
     );
 }
 
