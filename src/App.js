@@ -7,6 +7,10 @@ import Footer from "./components/Footer";
 import Accueil from "./pages/Accueil";
 import Contact from "./pages/Contact";
 import Infogerance from "./pages/Infogerance";
+import Logiciel from "./pages/Logiciel";
+import Web from "./pages/Web";
+import Reseaux from "./pages/Reseaux";
+
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -17,6 +21,10 @@ function AnimatedRoutes() {
                 <Route path="/" element={<Accueil />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/infogerance" element={<Infogerance />} />
+                <Route path="/logiciel" element={<Logiciel />} />
+                <Route path="/reseaux" element={<Reseaux />} />
+                <Route path="/web" element={<Web />} />
+
             </Routes>
         </AnimatePresence>
     );
