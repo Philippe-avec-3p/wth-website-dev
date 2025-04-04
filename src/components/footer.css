@@ -33,7 +33,7 @@
 }
 
 .footer-links a:hover {
-    color: #ff9800;
+    color: #209ad6ff;
 }
 
 .social-icons a {
@@ -45,7 +45,7 @@
 
 .social-icons a:hover {
     transform: scale(1.2);
-    color: #ff9800;
+    color: #209ad6ff;
 }
 
 .footer-bottom {
@@ -53,4 +53,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding: 10px 0;
     font-size: 14px;
+}
+
+.imgfooter{
+    max-height: 220px;
 }

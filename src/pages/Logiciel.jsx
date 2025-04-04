@@ -26,7 +26,7 @@ const Logiciel = () => {
 
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-6">
-                        <div className="contact-card shadow-lg p-4 rounded">
+                        <div className="p-4">
                             <h2 className="secondarycolor text-center">Support informatique sur mesure</h2>
                             <p className="text-muted text-center">
                                 Nous comprenons l'importance d'un support informatique efficace pour assurer
@@ -47,7 +47,7 @@ const Logiciel = () => {
                         <img src="/assets/img/icologiciel2.jpg" alt="Approche proactive" className="img-fluid rounded shadow-lg" />
                     </div>
                     <div className="col-md-6">
-                        <div className="contact-card shadow-lg p-4 rounded">
+                        <div className="p-4">
                             <h2 className="secondarycolor text-center">Approche proactive et performance</h2>
                             <p className="text-muted text-center">
                                 Nous adoptons une démarche proactive en surveillant en permanence vos systèmes pour anticiper

@@ -14,12 +14,12 @@ const Contact = () => {
 
                 <div className="background-image-banner"></div>
 
-
+            <h1 className="text-center top-text mt-4">Contact</h1>
 
             <div className="subsection container mt-5">
                 <div className="row justify-content-center align-items-center">
-                    <div className="col-md-4 mb-4 wow animate__animated animate__fadeIn">
-                        <div className="contact-card shadow-lg p-4 rounded">
+                    <div className="col-md-4 mb-4">
+                        <div className=" p-4">
                             <h2 className="secondarycolor text-center">Contactez-nous</h2>
                             <p className="text-muted text-center">
                                 Notre équipe est à votre disposition tous les jours de 8h à 18h.
@@ -30,8 +30,8 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 mb-4 wow animate__animated animate__fadeIn">
-                        <div className="contact-card shadow-lg p-4 rounded">
+                    <div className="col-md-4 mb-4">
+                        <div className="p-4 text-center">
                             <div className="contact-info">
                                 <p><i className="fa fa-map-marker-alt"></i> 383/385 rue de la Belle Étoile<br/>Parc des Nations<br/>95700 Roissy-en-France</p>
                             </div>

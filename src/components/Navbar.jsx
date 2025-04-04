@@ -12,7 +12,7 @@ function Navbar() {
             className="navbar navbar-expand-lg navbar-light fixed-top"
         >
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Navbar</Link>
+                <Link className="navbar-brand" to="/"> <img src="/assets/img/logo_wth.png" alt="Support informatique" className="img-fluid logo-navbar" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -23,11 +23,6 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/">Accueil</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
-                        </li>
-
-                        {/* Dropdown Services */}
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button"
                                   data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,6 +34,9 @@ function Navbar() {
                                 <li><Link className="dropdown-item" to="/logiciel">Logiciel</Link></li>
                                 <li><Link className="dropdown-item" to="/web">Web</Link></li>
                             </ul>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
